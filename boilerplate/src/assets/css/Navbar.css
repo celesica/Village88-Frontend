@@ -1,0 +1,28 @@
+.brand {
+    margin-left: 40px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #9c9c9c;
+}
+
+.nav-link:hover {
+    color: #f3cbcb;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: red;
+}

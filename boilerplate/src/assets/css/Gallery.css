@@ -1,0 +1,39 @@
+.gallery-container {
+    text-align: center;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.gallery-heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.gallery-pagination {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-card {
+    margin-bottom: 20px;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: maroon;
+    border-color: maroon;
+}
+
+.page-link {
+    color: maroon;
+}
+
+.page-link:hover {
+    color: maroon;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
