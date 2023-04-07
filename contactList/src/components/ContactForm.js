@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button, InputGroup, FormControl } from 'react-bootstrap';
-import { BsPersonFill, BsEnvelopeFill } from 'react-icons/bs'; // Import the icons
-import '../assets/css/ContactForm.css'; // Import the custom CSS file
+import { BsPersonFill, BsEnvelopeFill } from 'react-icons/bs';
+import '../assets/css/ContactForm.css';
 
 const ContactForm = ({ onAddContact }) => {
     const [name, setName] = useState('');
