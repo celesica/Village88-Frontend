@@ -1,28 +1,24 @@
-import React from "react";
-import './assets/css/styles.css';
-import CustomNavbar from "./components/Navbar";
-import CarouselComponent from './components/Carousel';
-import Alert from './components/Alert';
-import Gallery from "./components/Gallery";
-import ContactForm from "./components/ContactForm";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-      <div className="App">
-          <CustomNavbar />
-          <div className="container" id="alert-section">
-              <Alert message="Recruitment is now open for aspiring Kendokas." />
-          </div>
-          <div className="container" id="carousel-section">
-              <CarouselComponent />
-          </div>
-          <div className="container" id="gallery-section">
-              <Gallery />
-          </div>
-          <div className="container" id="contact-section">
-              <ContactForm />
-          </div>
-      </div>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
