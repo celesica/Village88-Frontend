@@ -1,0 +1,45 @@
+#formBasicName, #formBasicEmail {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    width: 90%;
+}
+
+.form-label {
+    font-family: Inter,sans-serif;
+    color: #050505;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-top: 5px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 0 0 #000;
+}
+
+.btn-primary {
+    padding: 12px 36px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #050505;
+    border-radius: 4px;
+    background-color: #dacdf4;
+    box-shadow: 0 4px 0 0 #050505;
+    transition: box-shadow 200ms ease, background-color 500ms cubic-bezier(0.6, 0.6, 0, 1);
+    color: #050505;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    width: 100%;
+    font-family: Archivo, sans-serif;
+}
+
