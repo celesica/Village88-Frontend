@@ -1,0 +1,52 @@
+
+.btn-secondary {
+    --bs-btn-bg: #bcaeec !important;
+    --bs-btn-border-color: #bcaeec !important;
+    --bs-btn-hover-bg: #f2fca2 !important;
+    --bs-btn-hover-border-color: #f2fca2 !important;
+    --bs-btn-hover-color: #bcaeec !important;
+}
+
+.my-masonry-grid {
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.my-masonry-grid_column > div {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1199px) {
+    .my-masonry-grid_column {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .my-masonry-grid {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .my-masonry-grid {
+        display: block;
+    }
+
+    .my-masonry-grid_column {
+        margin-bottom: 20px;
+    }
+
+    .my-masonry-grid_column:last-child {
+        margin-bottom: 0;
+    }
+}

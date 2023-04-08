@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    font-family: Archivo, sans-serif !important;
+    width: 800px;
+    margin: 100px auto !important;
+    background-image: url("/public/assets/images/hp-bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center !important;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mt-5 {
+    border-radius: 50px;
+    background-image: url("/public/assets/images/stars-bg.jpg");
+    padding: 50px !important;
+    height: 75vh;
+}
+
+.sorting-hat-image {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.mt-3, .mt-5 .btn-primary {
+    --bs-btn-bg: #514a92 !important;
+    --bs-btn-border-color: #514a92 !important;
+    --bs-btn-border-radius: 30px !important;
+    padding: 14px 40px 18px !important;
+    --bs-btn-line-height: 1 !important;
+    --bs-btn-hover-bg: #48418b !important;
+    --bs-btn-hover-border-color: #48418b !important;
+    --bs-btn-active-bg: #48418b !important;
+    --bs-btn-active-border-color: #48418b !important;
+    width: 40%;
+}
+
+.btn-success {
+    --bs-btn-active-bg: #d2aa6b !important;
+    --bs-btn-active-border-color: #d2aa6b !important;
+    --bs-btn-bg: #d2aa6b !important;
+    --bs-btn-border-color: #d2aa6b !important;
+    width: 50%;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 18px;
+    height: 70px;
+    margin-bottom: 12px;
+}
+
+.btn-outline-primary {
+    width: 50%;
+    --bs-btn-bg: #fff !important;
+    --bs-btn-border-color: #fff !important;
+    border-radius: 4px;
+    --bs-btn-color: #000 !important;
+    font-size: 16px;
+    line-height: 18px;
+    height: 70px;
+    margin-bottom: 12px;
+    --bs-btn-active-bg: #d2aa6b !important;
+    --bs-btn-active-border-color: #d2aa6b !important;
+}
+
+.mt-2:hover {
+    box-shadow: 0 0 0 5px #d2aa6b;
+    --bs-btn-hover-bg: #fff !important;
+    --bs-btn-hover-border-color: #fff !important;
+    --bs-btn-hover-color: #000 !important;
+}
+
+.btn:disabled {
+    --bs-btn-disabled-bg: #514a92 !important;
+    --bs-btn-disabled-border-color: #514a92 !important;
+}
+
+.houseCrest {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.houses {
+    width: 450px;
+    margin: 0 auto !important;
+}
+
+.alert-gryffindor .progress-bar {
+    background-color: #e58d61;
+}
+
+.alert-hufflepuff .progress-bar {
+    background-color: #d9af60;
+}
+
+.alert-ravenclaw .progress-bar {
+    background-color: #3371a2;
+}
+
+.alert-slytherin .progress-bar {
+    background-color: #6cb65a;
+}
+
+h1, h2 {
+    font-family: MedievalSharp, sans-serif !important;
+}
