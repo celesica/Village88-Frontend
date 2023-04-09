@@ -1,0 +1,24 @@
+
+.board-container {
+    margin: 20px;
+    padding: 0 30px !important;
+}
+
+.board-column {
+    padding: 0 10px;
+}
+
+.board-column h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.board-column-content {
+    min-height: 100px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.board-column-content.is-dragging-over {
+    background-color: red;
+}

@@ -1,0 +1,17 @@
+.app-header {
+    /* Add any custom styles for the app header here */
+}
+
+.create-task-button {
+    /* Add custom styles for the Create Task button */
+    font-weight: bold;
+    margin-right: 15px;
+    border-width: 2px;
+}
+
+.create-task-button:hover {
+    /* Add custom styles for the Create Task button on hover */
+    background-color: #ffffff;
+    color: #343a40;
+    border-color: #ffffff;
+}

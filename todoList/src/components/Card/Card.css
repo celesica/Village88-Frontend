@@ -1,0 +1,146 @@
+.task-card .content {
+    margin-bottom: auto;
+}
+
+.edit-icon {
+
+}
+
+.task-card {
+    margin: 20px 0 !important;
+    padding: 12px;
+    border-bottom-width: 4px !important;
+    cursor: grab;
+    background-color: #fff;
+    border-radius: 0 !important;
+    box-shadow: rgba(99,99,99,0.1) 0 2px 8px 0;
+    border-top: 1px solid #f0f0f0 !important;
+    border-left: 1px solid #f0f0f0 !important;
+    border-right: 1px solid #f0f0f0 !important;
+    transition: all 0.4s ease-in-out;
+}
+
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.task-category {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.end-date {
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.task-priority {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: .8em;
+    color: #fff;
+    padding: .1em .3em;
+    border-radius: .375rem;
+}
+
+.task-priority.high {
+    background-color: #e33a40;
+}
+
+.task-priority.medium {
+    background-color: #ffc300;
+}
+
+.task-priority.low {
+    background-color: #008558;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+#dropdown-basic {
+    color: #bfbfbf;
+    position: absolute;
+    top: -30px;
+    font-size: 18px;
+}
+
+#dropdown-basic svg:hover {
+    color: #ff9b45;
+}
+
+#dropdown-basic svg:active {
+    color: #ff9b45;
+}
+
+.dropdown .btn-primary {
+    --bs-btn-bg: transparent !important;
+    --bs-btn-border-color: transparent !important;
+    --bs-btn-padding-x: 0 !important;
+    --bs-btn-padding-y: 0 !important;
+    --bs-btn-hover-bg: transparent !important;
+    --bs-btn-hover-border-color: transparent !important;
+    --bs-btn-active-bg: transparent !important;
+    --bs-btn-active-border-color: transparent !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 6rem !important;
+    --bs-dropdown-font-size: 14px !important;
+}
+
+.task-category {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.task-category.game {
+    background-color: #eee5ff;
+}
+
+.task-category.visual {
+    background-color: #a8d7e0;
+}
+
+.task-category.development {
+    background-color: #FFAA8A;
+}
+
+.task-category.testing {
+    background-color: #ffe28c;
+}
+
+.task-category.music {
+    background-color: #DAF5DE;
+}
+
+.task-category.marketing {
+    background-color: #ECF3DC;
+}
+
+.project-name {
+    padding: .25rem 0.5rem !important;
+    border-radius: .25rem;
+    font-weight: bold;
+    font-size: .8em;
+    background-color: #F1C8DB;
+    margin-right: -10px;
+}
+
+.card-text {
+    font-size: 13px;
+    text-align: left;
+    padding: 1rem 0;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0 !important;
+}
+
+.flag svg {
+    font-size: 13px;
+    color: #212529;
+}

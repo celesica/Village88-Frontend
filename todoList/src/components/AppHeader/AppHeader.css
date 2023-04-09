@@ -1,0 +1,37 @@
+.app-header {
+    background-color: #f7ddd5;
+    padding: 30px !important;
+}
+
+.create-task-button {
+    font-weight: bold;
+    margin-right: 15px;
+    border-width: 2px;
+    --bs-btn-bg: #ff775f !important;
+    --bs-btn-border-color: #ff775f !important;
+    --bs-btn-hover-bg: #484c7f !important;
+    --bs-btn-hover-border-color: #484c7f !important;
+    --bs-btn-active-bg: #484c7f !important;
+    --bs-btn-active-border-color: #484c7f !important;
+}
+
+.create-task-button:hover {
+    background-color: #ffffff;
+    color: #343a40;
+    border-color: #ffffff;
+}
+
+.col-6 {
+    text-align: left;
+}
+
+.navbar-brand {
+    padding: 0 50px !important;
+    font-size: 2rem !important;
+    font-weight: 700;
+    color: #484c7f !important;
+}
+
+.add-icon {
+    margin-right: 10px;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;600&display=swap');
+
+.App {
+  margin: 100px auto;
+  text-align: center;
+  font-family: Archivo, sans-serif;
+  width: 800px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  padding: 0;
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-primary {
+  --bs-btn-bg: transparent !important;
+  --bs-btn-border-color: transparent !important;
+  --bs-btn-hover-bg: transparent !important;
+  --bs-btn-hover-border-color: transparent !important;
+  --bs-btn-active-bg: transparent !important;
+  --bs-btn-active-border-color: transparent !important;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.btn-group {
+  margin-top: 50px;
+}
+
+body {
+  background-color: #d9eef2 !important;
+}
+
+h1 {
+  color: #fa5252;
+}
+
+h2 {
+  color: #c816a9;
+  font-weight: bold;
+}
+
+.jokeQuote {
+  background-color: #fffaea;
+  padding: 20px;
+  margin: 20px 30px;
+  border: 5px double #ffefc3;
+}

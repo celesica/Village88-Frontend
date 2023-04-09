@@ -1,0 +1,36 @@
+.modal-content {
+    border: 1px solid #ff775f !important;
+}
+
+.modal {
+    font-family: Archivo, sans-serif;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.modal-body .btn {
+    margin-right: 10px !important;
+}
+
+[type=submit]:not(:disabled) {
+    background-color: #ff775f !important;
+    border-color: #ff775f !important;
+}
+[type=submit]:not(:disabled):hover {
+    background-color: #484c7f !important;
+    border-color: #484c7f !important;
+}
+
+.modal-title {
+    color: #ff775f;
+}
+
+.modal-body {
+    padding-bottom:25px !important;
+}
