@@ -1,0 +1,70 @@
+.navbar {
+    background-color: #202020;
+    color: #ffffff;
+    padding: 0 30% !important;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #292929;
+    border: none;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 400px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #c4c4c4;
+}
+
+.btn-outline-success {
+    border-color: #4caf50;
+    color: #4caf50;
+}
+
+.btn-outline-success:hover {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.btn-outline-success:focus {
+    box-shadow: none;
+}
+
+.mx-auto {
+    width: 100%;
+}
+
+.searchBar {
+    background-color: #121212 !important;
+    border: 1px solid #303030 !important;
+    border-right: none;
+    border-radius: 40px 0 0 40px !important;
+    box-shadow: inset 0 1px 2px hsla(0, 0%, 0%, 0);
+    padding: 0 4px 0 16px !important;
+    color: #ffffffe0 !important;
+}
+
+.searchBar:focus {
+    border: 1px solid #1c62b9 !important;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+.searchBtn {
+    border: 1px solid #303030 !important;
+    border-radius: 0 40px 40px 0 !important;
+    cursor: pointer !important;
+    height: 40px;
+    width: 64px;
+    background-color: hsla(0, 0%, 100%, 0.08) !important;
+    --bs-btn-hover-color: #c7c2c2 !important;
+}

@@ -1,0 +1,70 @@
+.lettered-avatar {
+    font-size: 20px !important;
+}
+
+.commentWrapper {
+    margin: 24px 0;
+    text-align: left;
+}
+
+.commentWrapper form {
+    margin: 20px 0;
+}
+
+.commentInput {
+    width: 87%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #717171;
+    margin-right: 10px;
+    color: #f1f1f1;
+}
+
+.commentInput:focus {
+    outline: none;
+}
+
+.commentBtn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #3ea6ff;
+    font-weight: bold;
+    color: #0f0f0f;
+    border: none;
+    width: 12%;
+}
+
+.commentBtn:hover {
+    background-color: #66b9fd;
+    border: none;
+}
+
+.likeBtn svg, .dislikeBtn svg {
+    font-size: 23px;
+    color: #f1f1f1;
+}
+
+.likeBtn, .dislikeBtn {
+    background: transparent;
+    border: none;
+    padding: 0 5px 0 0;
+}
+
+.likeBtn:hover {
+    background-color: #272727;
+}
+
+.reactBtn {
+    margin-top: -10px;
+}
+
+.reactCount {
+    font-size: 15px;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.comment {
+    margin: 30px 0;
+}
