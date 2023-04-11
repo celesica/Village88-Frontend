@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;600&display=swap');
+
+.App {
+  text-align: center;
+  font-family: Archivo, sans-serif;
+  margin: 40px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+.my-masonry-grid_column {
+  padding: 10px;
+  background-clip: padding-box;
+}
+
+.movie-card {
+  margin: 0 0 2em 0 !important;
+  position: relative;
+  width: 100% !important;
+}
+
+.ui.card {
+  border-radius: 20px !important;
+}
+
+.ui.card>.image {
+  border: none;
+  border-radius: 20px !important;
+}
+
+.movie-details {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(30, 30, 30, 0.82);
+  color: white;
+  padding: 2rem;
+}
+
+.ui.card>:last-child {
+  border-radius: 0 0 20px 20px !important;
+}
+
+.movie-title {
+  margin-bottom: 0.25rem;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.meta {
+  color: #00ffb2 !important;
+  margin: 10px 0;
+}
+
+.date {font-weight: bold;}
+.dot {margin: 0 0.3rem;}
+.votes {margin-left: 0.5rem;}
+
+.ui.star.rating .icon {
+  color: rgb(201 199 199 / 42%);
+}
