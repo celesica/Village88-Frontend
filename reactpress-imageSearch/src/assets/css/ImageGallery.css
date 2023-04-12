@@ -1,0 +1,36 @@
+.my-masonry-grid {
+    display: flex;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding: 10px;
+    background-clip: padding-box;
+}
+
+.my-masonry-grid img {
+    max-width: 100%;
+    display: block;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+.imageItem {
+    margin-bottom: 20px;
+}
+
+.modal {
+    --bs-modal-width: 800px;
+}
+
+.image {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.modalImage {
+    width: 100%;
+}
